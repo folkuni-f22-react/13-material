@@ -18,9 +18,12 @@ function App() {
 		right: '2em',
 		bottom: '2em'
 	}
+	const divStyle = {
+		border: '1px solid gray'
+	}
 
 	return (
-		<div>
+		<div style={divStyle}>
 			<div>
 				<Typography variant="h1"> Settings </Typography>
 				<FormControlLabel control={<Checkbox />} label="Check it out" />
@@ -33,6 +36,7 @@ function App() {
 
 			<div>
 				<Fab color="primary"
+					className="test"
 					sx={fabStyle}
 				> <AddIcon /> </Fab>
 			</div>

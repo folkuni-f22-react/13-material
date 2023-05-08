@@ -1,0 +1,14 @@
+button.test {
+	color: hotpink;
+	font-weight: bold;
+}
+
+/*
+Specificity: 3 kategorier
+- element, klasser och id
+
+button.test  --> 1 element, 1 klass, 0 id --> 011
+.muibuttonbase  --> 1 klass --> 010
+
+li:first-child  -->  1 element, 1 pseudo-klass, 0 id  --> 011
+*/
